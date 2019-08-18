@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Hồ Hoài Thương</title>
+    <link
+      rel="stylesheet"
+      href="css/style.css"
+      type="text/css"
+      media="screen"
+    />
+    <script src="js/main.js"></script>
+  </head>
+  <body onload="setInterval(step,100)">
+    <div style="text-align: right;padding: 15px;">
+      <button id="changeStyle" onclick="toggleShape()">Đổi kiểu</button>
+    </div>
+
+    <marquee>(。･ω･｡)ﾉ♡ ❤️️ Hồ Hoài Thương ❤️️ ★~(◠‿◕✿)</marquee>
+
+    <div id="container">
+      <div id="stage">
+        <div id="shape" class="cube backfaces">
+          <div class="plane one"></div>
+          <div class="plane two"></div>
+          <div class="plane three"></div>
+          <div class="plane four"></div>
+          <div class="plane five"></div>
+          <div class="plane six"></div>
+          <div class="plane seven"></div>
+          <div class="plane eight"></div>
+          <div class="plane nine"></div>
+          <div class="plane ten"></div>
+          <div class="plane eleven"></div>
+          <div class="plane twelve"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      style="position: absolute;top: 15px;left: 15px;height: 30px;width: 300px;"
+      id="playAudio"
+    >
+      <audio controls autoplay loop>
+        <source
+          src="Em bằng lòng làm một người bình thường ở bên cạnh anh - Vương Thất Thất.mp3"
+          type="audio/mpeg"
+        />
+      </audio>
+    </div>
+  </body>
+</html>
